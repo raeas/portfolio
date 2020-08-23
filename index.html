@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rae Schneider | Software Developer | Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header>
+        <div class="header-name">
+            <h1>Rae Schneider</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--Introduction section-->
+        <section>
+            <!--div for group containing 2 items (1 image, 1 text)-->
+            <div class="group">
+                <div class="item">
+                    <img src="images/rae.jpg" alt="headshot of Rae Schneider">
+                </div>
+                <div class="item">
+                    <h1>Hello! My name is Rae Schneider</h1>
+                    <p>I am a software developer and librarian based in Denver, CO. I have over 10 years of experience working in both public and academic libraries. I specialize in library technology, systems integrations, and web development. I am passionate about delivering high quality digital services to diverse user groups.</p>
+                    <p>If you are looking for a software developer that understands the needs of libraries and the importance of providing a high quality digital experience to your patrons, I would love to hear from you!</p>
+                    <p>Please take a look at my portfolio and feel free to contact me about your next project.</p>
+                </p>
+                </div>
+            </div>
+        </section>
+        <!--About me section/put a class at the section level for backround-->
+        <section class="dark-background">
+            <h2>About me</h2>
+                <!--div for group containing 2 items (1 double wide text, 1 image)-->
+                <div class="group">
+                    <div class="item item-double">
+                        <p>I have a Master's degree in Library and Information Science from the University of Washington. I am passionate about providing access to information to the community. I have held a variety of technical roles both inside and outside the library sector.</p>
+                        <p>I have worked with teams of software developers in an agile environment. I have experience managing projects and working with customers to implement software to their specifications. In addition, I have experience in QA, software testing, and providing application support.</p>
+                    </div>
+                    <div class="item">
+                        <img src="images/books.jpg" alt="books on a shelf">
+                    </div>
+                </div>
+        </section>
+        <!--Portfolio section contains 2 groups of 2 items-->
+        <section>
+            <h2>Portfolio</h2>
+            <div class="group">
+                <div class="item">
+                    <img src="images/coming-soon.png" alt="placeholder image with books that says 'Coming Soon!'">
+                    <h3>Project 1</h3>
+                    <p>Fusce nec mauris neque. Integer pretium urna at libero varius posuere. Cras scelerisque volutpat condimentum. Suspendisse aliquam sed ante eu consequat. Ut a congue nunc, ut sollicitudin mauris. Sed faucibus tellus nec quam condimentum tincidunt. Praesent tincidunt ipsum dui, in dignissim arcu ultrices quis.</p>
+                </div>
+                <div class="item">
+                    <img src="images/coming-soon.png" alt="placeholder image with books that says 'Coming Soon!'">
+                    <h3>Project 2</h3>
+                    <p>Aliquam tincidunt, nisl ut dignissim lacinia, felis nulla pellentesque urna, a tempor lacus mi in erat. Vivamus venenatis, velit et aliquet commodo, enim arcu pellentesque sapien, a sagittis nulla sem non augue. Vestibulum semper varius laoreet. Praesent ullamcorper scelerisque est non porttitor. Ut et risus magna. Morbi pharetra turpis eget feugiat faucibus. Sed imperdiet lacinia cursus. Vestibulum lobortis mauris vel dapibus gravida. Nunc condimentum dignissim tincidunt. Aliquam ac nisi urna. Etiam gravida nulla sapien, ut congue massa mattis vitae.</p>
+                </div>
+            </div>
+            <div class="group">
+                <div class="item">
+                    <img src="images/coming-soon.png" alt="placeholder image with books that says 'Coming Soon!'">
+                    <h3>Project 3</h3>
+                    <p>Suspendisse vitae quam quis risus euismod viverra sit amet a elit. Fusce a tincidunt lectus, eget semper diam. Integer finibus libero varius malesuada scelerisque. Suspendisse suscipit metus metus, sit amet semper ex aliquet et. Pellentesque commodo sapien a tellus imperdiet pharetra. Quisque condimentum nisl a commodo eleifend. Ut hendrerit nisi vehicula libero dapibus viverra. In at laoreet velit, pellentesque ultricies ipsum</p>
+                </div>
+                <div class="item">
+                    <img src="images/coming-soon.png" alt="placeholder image with books that says 'Coming Soon!'">
+                    <h3>Project 4</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis, nulla nec viverra scelerisque, metus ex consequat magna, eu pulvinar orci mauris ac sem. Nullam mi turpis, efficitur at ligula sagittis, pulvinar pretium ante. In placerat, lorem vel rutrum porttitor, lacus libero scelerisque ligula, eu mollis arcu sapien in risus. Vestibulum id nunc dolor. Nullam volutpat massa volutpat libero feugiat dignissim at feugiat neque. Donec sit amet felis dolor. Nulla finibus lacinia est a hendrerit. Pellentesque dictum gravida nulla, eget lacinia urna ultrices sed. Pellentesque lacinia iaculis nisl quis ultricies.</p>
+                </div>
+            </div>
+        </section>
+        <!--Contact section group with form item-->
+        <section class="dark-background">
+            <h2>Contact</h2>
+            <div class="group">
+                <div class="item item-double">
+                    <form action="https://formspree.io/mpzyedgp" method="POST">
+                        <label for="full-name">Name:</label>
+                        <input id="full-name" type="text" name="name">
+                        <label for="email">Email:</label>
+                        <input id="email" type="text" name="email">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+                <div class="item">
+                    <p>Phone: <a href="tel:555-123-4567">555-123-4567</a></p>
+                    <p>Email: <a href="mailto:rae@raeschneider.com">rae@raeschneider.com</a></p>
+                    <p><a href="https://www.linkedin.com/in/rannschneid/" target="_blank">LinkedIn</a></p>
+                    <p><a href="https://github.com/raeas" target="_blank">GitHub</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&#169; Rae Schneider, 2020</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,116 @@
+/* Set ALL HTML elements with border-box sizing */
+* {
+    box-sizing: border-box;
+  }
+
+  /*general styles*/
+  body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    background-color: #DEF7F3;
+    color: #0D181C;
+    font-size: 18px;
+  }
+
+  header, footer {
+    height: 150px;
+    background-color: #e76f51;
+    text-align: center;
+    color: #F8D2C9;
+    border: solid;
+  }
+
+
+  .header-name {
+    font-size: large;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: center;
+  
+  }
+
+  header nav ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  header nav ul li a {
+    font-family: 'Montserrat', sans-serif;
+    color: #F8D2C9;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+  }
+
+  /* messes up the dark background section
+  main{
+    padding: 20px 0;
+  }
+  */
+  main img{
+      width: 100%;
+  }
+  .dark-background{
+    background-color: #bdefe6;
+    margin: 0;
+  }
+ 
+
+  footer p{
+    margin-top: 75px;
+  }
+
+  h1{
+      font-family: 'Comfortaa', cursive;;
+  }
+
+  section{
+      padding: 3% 10%;
+  }
+
+  .group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item {
+    flex: 1;
+    margin: 10px;
+  }
+
+  .item-double {
+    flex: 2;
+  }
+
+  form input, form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+    height: 160px;
+  }
+
+  @media all and (min-width: 600px){
+    header {
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-between;
+    }
+  
+    .header-name {
+      margin: 14px 0;
+      padding-top: 5px;
+    }
+  
+    header nav{
+      margin-top: 43px;
+    }
+
+    .group {
+        flex-direction: row; 
+      }
+  }
+  
