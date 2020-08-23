@@ -16,7 +16,7 @@
     height: 150px;
     background-color: #e76f51;
     text-align: center;
-    color: #F8D2C9;
+    color: #FFFFF0;
     border: solid;
   }
 
@@ -39,19 +39,16 @@
 
   header nav ul li a {
     font-family: 'Montserrat', sans-serif;
-    color: #F8D2C9;
+    color: #FFFFF0;
     text-decoration: none;
     margin: 0 20px 0 0;
   }
 
-  /* messes up the dark background section
-  main{
-    padding: 20px 0;
-  }
-  */
   main img{
-      width: 100%;
+      width: 90%;
+      margin-top: 30px;
   }
+
   .dark-background{
     background-color: #bdefe6;
     margin: 0;
@@ -84,6 +81,15 @@
     flex: 2;
   }
 
+  img {
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #c5c0b8;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+
   form input, form textarea {
   width: 100%;
   margin-bottom: 20px;
@@ -93,6 +99,19 @@ form textarea {
     height: 160px;
   }
 
+  /*link styles in the section <p> tags*/
+p a {
+	font-weight: 700;
+	text-decoration: none;	
+}
+ 
+p a:link    { color: #264653; }
+p a:visited { color: #f4a261; }
+p a:hover   { color: #2a9d8f; }
+p a:active  { color: #e9c46a; }
+
+
+/* styles for (Desktop) */
   @media all and (min-width: 600px){
     header {
     display: flex;
