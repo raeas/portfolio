@@ -117,6 +117,16 @@ iframe {
 	border: none;
 }
 
+/* submit button style */
+.btn {
+  color: #FFFFF0;
+  background-color: #e76f51;
+  border-color: #e76f51;
+  font-size: 16px;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
 /* styles for (Desktop) */
   @media all and (min-width: 600px){
     header {
