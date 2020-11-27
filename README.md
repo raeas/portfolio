@@ -1,2 +1,6 @@
-# portfolio
-portfolio for Thinkful projects
+# Portfolio
+Portfolio for Thinkful projects
+
+### Tech Stack
+* HTML
+* CSS
