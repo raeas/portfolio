@@ -2,5 +2,10 @@
 Portfolio for Thinkful projects
 
 ### Tech Stack
-* HTML
-* CSS
+* HTML  
+* CSS  
+* jQuery  
+* ReactJs  
+* Node.js  
+* Express.js  
+* PostgreSQL  
