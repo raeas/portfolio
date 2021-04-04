@@ -9,7 +9,7 @@
     margin: 0;
     background-color: #DEF7F3;
     color: #0D181C;
-    font-size: 24px;
+    width: auto;
   }
 
   header, footer {
@@ -34,7 +34,8 @@
   header nav ul {
     display: flex;
     list-style: none;
-    padding-left: 0;
+    padding-left: 10px;
+    margin: 10px 0;
   }
 
   header nav ul li a {
@@ -45,7 +46,7 @@
   }
 
   main img{
-      width: 50%;
+      width: 100%;
       margin-top: 30px;
   }
 
@@ -133,10 +134,13 @@ iframe {
 
 /* styles for (Desktop) */
   @media all and (min-width: 600px){
+    body {
+      font-size: 24px;
+    }
     header {
-    display: flex;
-    padding: 0 30px;
-    justify-content: space-between;
+      display: flex;
+      padding: 0 30px;
+      justify-content: space-between;
     }
   
     .header-name {
